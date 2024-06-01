@@ -2328,7 +2328,6 @@ int akTheme(void) {
 						ndsToBoot = "fat:/_nds/TWiLightMenu/emulators/gameyob.nds";
 						dsModeSwitch = !isDSiMode();
 						boostVram = true;
-						powerOff(PM_BACKLIGHT_BOTTOM);
 					}
 				} else if (extension(filename, {".nes", ".fds"})) {
 					ms().launchType[ms().secondaryDevice] = TWLSettings::ENESDSLaunch;
