@@ -121,7 +121,7 @@ int main(int argc, char **argv) {
 
 	// Turn on screen backlights if they're disabled
 	powerOn(PM_BACKLIGHT_TOP);
-	//powerOn(PM_BACKLIGHT_BOTTOM);
+	powerOn(PM_BACKLIGHT_BOTTOM);
 	
 	scanKeys();
 	if ((keysHeld() & KEY_RIGHT) && (keysHeld() & KEY_A)) {
