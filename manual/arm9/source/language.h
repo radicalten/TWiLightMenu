@@ -13,7 +13,7 @@
  * Uses the language ID specified in settings.ui.language.
  *
  * Check the language variable outside of settings to determine
- * the actual language in use. test
+ * the actual language in use.
  */
 void langInit(void);
 
